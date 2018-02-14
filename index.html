@@ -29,6 +29,7 @@
         <div ng-controller="pokeInfo">
             <img src="{{pokemon.sprites.front_default}}"/>
             <p>{{pokemon.name}}</p>
+            <p>{{pokemon.description}}</p>
             <table class="table table-striped">
                 <tr ng-repeat="move in pokemon.moves">
                     <td>{{move.move.name}}</td>
