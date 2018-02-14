@@ -44,6 +44,7 @@ pokeApp.factory('pikApi', function ($log, $resource, POKEAPI) {
                 var description = result.flavor_text_entries.find(function(m){
                     return m.language.name === "fr";
                 });
+                pokemon.description = description.flavor_text;
             })
             return pokemon
         })
