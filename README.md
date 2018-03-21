@@ -1,6 +1,8 @@
 # teaching-jxs-tp5
 TP5 : PokeSyr
 
+author : Romain BOITARD, Abdrourahmane BAH
+
 Projet de création d'un pokedex de la première génération pokemon. Le projet est réalisé avec angular 
 Pour le css, nous utilisons bootstrap.
 Utilisation de PokéApi : https://pokeapi.co/
