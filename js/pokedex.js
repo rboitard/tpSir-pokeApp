@@ -82,3 +82,9 @@ pokeApp.factory('pikafo', function ($log, $resource, POKEAPI) {
 
 
 });
+
+pokeApp.directive('pokedex', function () {
+    return {
+        templateUrl: 'pokedex.html'
+    };
+});
